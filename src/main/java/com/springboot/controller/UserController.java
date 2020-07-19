@@ -31,7 +31,7 @@ public class UserController {
     @ResponseBody
     public String save(User user) {
         userService.save(user);
-        return "save success!";
+        return "save success !";
     }
     @RequestMapping("/userList")
     public String userList(Model model) {
